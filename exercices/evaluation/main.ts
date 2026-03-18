@@ -85,3 +85,29 @@ const slider = new Swiper(".caroussel", {
     centeredSlides: true,
 });
 
+//Scroll
+gsap.from(".stylet2", {
+    y: 120,
+    opacity: 0,
+    duration: 2,
+    ease: "power1.out",
+    scrollTrigger: {
+        trigger: ".stylet2",
+        start: "top 80%",
+        end: "top 30%",
+        scrub: true
+    }
+});
+
+gsap.from(".perso", {
+    y: 100,
+    opacity: 0,
+    duration: 2,
+    stagger: 0.2,
+    ease: "back.out(1.4)",
+    scrollTrigger: {
+        trigger: ".personnage",
+        start: "top 80%",
+        end: "top 30%",
+    }
+});
