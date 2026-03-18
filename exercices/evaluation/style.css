@@ -1,0 +1,14 @@
+.console{
+    transition: transform 0.6s ease-in-out;
+}
+
+.console:hover{
+    transform: scale(1.08) rotate(-10deg) translateY(-20px);
+}
+
+.swiper {
+    position: relative;
+    transition: background 0.5s;
+}
+
+
