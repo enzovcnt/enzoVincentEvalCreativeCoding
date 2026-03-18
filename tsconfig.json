@@ -22,5 +22,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "exercices", "vite.config.ts"]
+  "include": ["src", "exercices", "type", "vite.config.ts"]
 }

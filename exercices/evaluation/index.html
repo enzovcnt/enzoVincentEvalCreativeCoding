@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Evaluation</title>
-    <script type="module" src="./main.ts" async></script>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evaluation</title>
+  <script type="module" src="./main.ts" async></script>
+</head>
+<body>
 <div class="sticky top-0 w-full bg-white h-16 z-50">
   <div class="navbar h-16 flex justify-between items-center p-2">
     <img src="assets/stylet.png" alt="stylet" class="h-16 rotate-320 stylet" />
@@ -15,17 +15,16 @@
         <img src="assets/mario.webp" alt="mario" class="h-12" />
       </button>
       <ul>
-        <li>Lien 1</li>
-        <li>Lien 2</li>
-        <li>Lien 3</li>
+        <li><a href="#hero">Hero</a></li>
+        <li><a href="#caroussel">Slider</a></li>
+        <li><a href="#scroll">Scroll</a></li>
       </ul>
     </div>
-
   </div>
 </div>
 
 
-<div class="main h-180 bg-red-600 grid grid-cols-2">
+<div id="hero" class="main h-180 bg-red-600 grid grid-cols-2">
   <div class="flex justify-center items-center p-2">
     <img src="assets/console-nintendo-3ds.png" alt="3ds" class="console" />
   </div>
@@ -34,7 +33,7 @@
   </div>
 </div>
 
-<div class="flex justify-center items-center p-2 h-180">
+<div id="caroussel" class="flex justify-center items-center p-2 h-180">
   <div class="swiper caroussel" id="slider">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -57,7 +56,7 @@
 </div>
 
 
-<div class="scroll h-180 bg-red-600 flex flex-col justify-around items-center p-2">
+<div id="scroll" class="scroll h-180 bg-red-600 flex flex-col justify-around items-center p-2">
   <div class="grid grid-cols-2 gap-2 items-center">
     <img src="./assets/console-nintendo-3ds.png" alt="3DS" class="w-110 h-110 object-contain" />
     <img src="./assets/stylet.png" alt="stylet" class="w-80 h-80 object-contain rotate-49 stylet2" />
@@ -69,9 +68,14 @@
   </div>
 </div>
 
-  <div class="grille h-180">
+<div class="grille h-180 grid grid-cols-4">
+  <div>
 
   </div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
 
-  </body>
+</body>
 </html>

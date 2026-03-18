@@ -71,7 +71,7 @@ gsap.from(".chars", {
 });
 
 //Slider
-const slider = new Swiper(".caroussel", {
+new Swiper(".caroussel", {
     slidesPerView: 3,
     spaceBetween: 30,
     loop: true,
