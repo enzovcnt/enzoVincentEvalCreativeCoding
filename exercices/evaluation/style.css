@@ -11,4 +11,19 @@
     transition: background 0.5s;
 }
 
-
+.fin1{
+    background-image: url("assets/Zelda-BotW.jpg");
+    background-size: cover;
+}
+.fin2{
+    background-image: url("assets/mario paysage.jpg");
+    background-size: cover;
+}
+.fin3{
+    background-image: url("assets/metroiPaysage.jpg");
+    background-size: cover;
+}
+.fin4{
+    background-image: url("assets/paysagePokemon.png");
+    background-size: cover;
+}

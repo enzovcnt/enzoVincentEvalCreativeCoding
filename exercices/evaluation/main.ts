@@ -111,3 +111,28 @@ gsap.from(".perso", {
         end: "top 30%",
     }
 });
+
+//bloc de fin
+const grilleTl = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".grille",
+        start: "top bottom",
+        end: "bottom top",
+    }
+});
+
+grilleTl
+    .to(".cover", {
+        yPercent: 100,
+        duration: 0.8,
+        stagger: 0.2,
+        ease: "power2.inOut",
+    })
+    .from(".grille img", {
+        opacity: 0,
+        scale: 0.8,
+        duration: 0.6,
+        stagger: 0.15,
+        ease: "back.out(1.4)",
+    }, "-=0.4");
+
